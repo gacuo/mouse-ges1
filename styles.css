@@ -1,0 +1,52 @@
+/* Mouse Gesture Navigation - Styles */
+
+/* マウスジェスチャーキャンバスのスタイル */
+#mouse-gesture-canvas {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2147483647;
+}
+
+/* ポップアップのスタイル */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 300px;
+  padding: 15px;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  font-size: 18px;
+  margin-top: 0;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+.gesture-info {
+  margin: 15px 0;
+}
+
+.gesture-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.gesture-name {
+  font-weight: bold;
+  width: 100px;
+}
+
+.gesture-desc {
+  flex-grow: 1;
+}
+
+.footer {
+  font-size: 12px;
+  color: #666;
+  margin-top: 15px;
+  text-align: center;
+}
