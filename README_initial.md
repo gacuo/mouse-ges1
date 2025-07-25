@@ -1,0 +1,3 @@
+# Mouse Gesture Navigation
+
+マウスジェスチャーを使用してブラウザ操作ができるChrome拡張機能です。このリポジトリでは、Chrome拡張機能の開発を行います。
